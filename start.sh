@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Start dbus only if it's not already running.
 if ! pgrep dbus-daemon > /dev/null; then
